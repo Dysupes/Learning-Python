@@ -1,0 +1,17 @@
+<html>
+  <body>
+    <form action = '{{ url_for('addrecord') }}' method = 'POST'>
+      <h3>We're creating a new post</h3>
+
+      <p>Title</p>
+      <input type="text" name="title">
+      <br>
+      <p>Post</p>
+      <textarea name='post'></textarea>
+      <br>
+      <input type = "submit" value="submit" />
+      <br>
+
+    </form>
+  </body>
+</html>
